@@ -1,5 +1,5 @@
 {
-  "name": "b",
+  "name": "c",
   "version": "0.1.0",
   "scripts": {
     "build": "bsb -make-world",
@@ -18,5 +18,7 @@
   "dependencies": {
     "bs-platform": "8.3.3-dev.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "b": "*"
+  }
 }

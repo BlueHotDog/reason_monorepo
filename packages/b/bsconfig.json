@@ -1,5 +1,5 @@
 {
-  "name": "reason-react-examples",
+  "name": "b",
   "reason": {
     "react-jsx": 3
   },
@@ -19,9 +19,6 @@
   ],
   "suffix": ".bs.js",
   "namespace": true,
-  "bs-dependencies": [
-    "reason-react",
-    "a"
-  ],
+  "bs-dependencies": [],
   "refmt": 3
 }

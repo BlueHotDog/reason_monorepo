@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "scripts": {
-    "bootstrap": "yarn lerna bootstrap",
-    "postinstall": "yarn bootstrap"
-  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
-    "bs-platform": "^7.3.2",
-    "lerna": "^3.20.2"
+    "bs-platform": "8.3.3-dev.2"
   }
 }
